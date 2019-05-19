@@ -28,6 +28,7 @@ react-native link
 Additional details and setup for iOS can be found @ [React Native Maps](https://github.com/react-native-community/react-native-maps)
 
 
+
 MapBox props
 
 | Prop Name  | Purpose |
@@ -39,3 +40,14 @@ MapBox props
 | circleBorderWidth  | Border width of the highlight ring. Ex: circleBorderWidth={3} |
 | circleFillColor  | Inner color of the highlight ring. Ex: circleFillColor={'rgba(255,255,255,0.1)'} |
 | mapStyle  | Custom style for the map in JSON. Refer [Google Styling Wizard](https://mapstyle.withgoogle.com/) for styling options |
+
+Sample
+
+<MapBox 
+  latitude={37.78825} 
+  longitude={-122.4324} 
+  miles={1} 
+  circleBorderColor={"#f29315"} 
+  circleBorderWidth={3} 
+  circleFillColor={'rgba(255,255,255,0.1)'} />
+
