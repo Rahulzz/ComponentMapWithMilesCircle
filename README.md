@@ -27,3 +27,15 @@ react-native link
 
 Additional details and setup for iOS can be found @ [React Native Maps](https://github.com/react-native-community/react-native-maps)
 
+
+MapBox props
+
+| Prop Name  | Purpose |
+| ------------- | ------------- |
+| latitude  | Latitude of the location to be centered. Ex: latitude={37.78825} |
+| longitude  | Longitude of the location to be centered. Ex: longitude={-122.4324} |
+| miles  | Radius of the region to be highlighted in miles. Ex: miles={1} |
+| circleBorderColor  | Border color of the highlight ring. Ex: circleBorderColor={"#f29315"} |
+| circleBorderWidth  | Border width of the highlight ring. Ex: circleBorderWidth={3} |
+| circleFillColor  | Inner color of the highlight ring. Ex: circleFillColor={'rgba(255,255,255,0.1)'} |
+| mapStyle  | Custom style for the map in JSON. Refer [Google Styling Wizard](https://mapstyle.withgoogle.com/) for styling options |
