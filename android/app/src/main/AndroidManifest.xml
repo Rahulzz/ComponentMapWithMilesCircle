@@ -12,7 +12,7 @@
       android:theme="@style/AppTheme">
       <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyApIQPb-X3U4lE4j-kCxRL5qSZi38kT9Wk"/>
+        android:value="ENTER API KEY"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
