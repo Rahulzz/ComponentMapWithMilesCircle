@@ -12,7 +12,7 @@ npm install react-native-maps --save
 ```
 react-native link
 ```
-- Android - Modify AndroidManifest.xml to include the following permissions  
+- Android - Modify AndroidManifest.xml to include the API key  
 ```
   <application>
    <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
