@@ -8,19 +8,27 @@ Procedure to follow
 ```
 npm install react-native-maps --save
 ```
+- Install react-native-geocoding library.
+```
+npm install react-native-geocoding --save
+```
 - Link the packages.
 ```
 react-native link
 ```
 - Android - Modify AndroidManifest.xml to include the API key  
 ```
-  <application>
-   <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
-   <meta-data
-     android:name="com.google.android.geo.API_KEY"
-     android:value="Your Google maps API Key Here"/>
-  </application>
+<application>
+ <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+ <meta-data
+   android:name="com.google.android.geo.API_KEY"
+   android:value="Your Google maps API Key Here"/>
+</application>
 
+```
+- Modify MapBox.js to include the API key
+```
+Geocoder.init('Your Google maps API Key Here');
 ```
 - Run the app.
 
@@ -33,6 +41,7 @@ MapBox props
 
 | Prop Name  | Purpose |
 | ------------- | ------------- |
+| zipCode  | Zipcode for the location to be centered. zipCode will be prioritized compared to latitude and longitude params Ex: zipCode={95101} |
 | latitude  | Latitude of the location to be centered. Ex: latitude={37.78825} |
 | longitude  | Longitude of the location to be centered. Ex: longitude={-122.4324} |
 | miles  | Radius of the region to be highlighted in miles. Ex: miles={1} |
