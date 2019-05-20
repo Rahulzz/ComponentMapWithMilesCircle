@@ -7,7 +7,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <MapBox latitude={37.78825} longitude={-122.4324} miles={1} circleBorderColor={"#f29315"} circleBorderWidth={3} circleFillColor={'rgba(255,255,255,0.1)'}
+        <MapBox zipCode={95101} latitude={37.78825} longitude={-122.4324} miles={1} circleBorderColor={"#f29315"} circleBorderWidth={3} circleFillColor={'rgba(255,255,255,0.1)'}
           mapStyle={mapStyle} />
       </View>
     );

@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.8",
+    "react-native-geocoding": "^0.3.0",
     "react-native-maps": "^0.24.2"
   },
   "devDependencies": {
